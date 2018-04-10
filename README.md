@@ -26,9 +26,6 @@
 
 ## Observações
 
-- Arquivo utilidades.c -> Menu Inicial + funções de limpeza, etc.
-
-
 - Colocar no commit mensagem explicando o que foi realmente feito:
 ```bash
 $ git commit -m "Adicionei funcao X no processo Y"
@@ -44,6 +41,7 @@ typedef struct{
 - Funções de utilidades:
 
 ```c
+int menuInicial();     // Menu Principal da Aplicação
 void limpaTela();      // Limpa Tela
 void insereLinha();    // Inserir Linha de Exibição
 void pausar();         // Função de pausar com getchar()
