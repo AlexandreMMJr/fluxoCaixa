@@ -20,9 +20,15 @@
 
 - Organização do projeto;
 
+### 10/04 (Herik)
+
+- Criação dos arquivos básicos;
+
 ## Observações
 
-- Conferir e remodelar dados de acordo com o professor e João Victor;
+- Arquivo utilidades.c -> Menu Inicial + funções de limpeza, etc.
+
+
 - Colocar no commit mensagem explicando o que foi realmente feito:
 ```bash
 $ git commit -m "Adicionei funcao X no processo Y"
